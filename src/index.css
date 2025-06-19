@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #183b4e;
+  --color-secondary: #dda853;
+  --color-tertiary: #27548a;
+}
+
+@layer base {
+  body {
+    @apply bg-tertiary 2xl:max-w-screen-2xl 2xl:mx-auto;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
